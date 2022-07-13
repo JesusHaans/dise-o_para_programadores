@@ -189,4 +189,78 @@ Para definir el tamaño de un componente, se pone:
 
 grid-column: 1/5;
 
-donde uno es la columna donde empieza, y 5 es la columna donde termina
+donde 1 es la columna donde empieza, y 5 es la columna donde termina.
+
+En un diseño web responsivo usaremos 4 grids para movile y 12 apartir de  tablet.
+
+## Sistema de componentes UI:
+
+El punto de tener un sistema de componentes es encapsular el codigo de cada componente en una capsula ya sea en js o css y html plano pero de esta forma ya cuando mandamos a llamar el estilo de un boton ya tenemos definido como va a ser ese boton.
+
+La forma de dividir esto es con ayuda del Wireframe para poder dividir los componentes.
+
+## Themes y customizaciones:
+
+El ejemplo mas famoso es la paagina de android que con un solo  click se puede personalizar y pasar del tema diurno por el tema nocturno.
+
+Por otro lado para lograr esto lo que se hace es separar los colores de la paleta de colores a un solo archivo y de ahi invocarlo en los componentes que se requieran.
+
+Todo esto es con la idea que si el cliente nos pide cambiar los colores no tener que ir archivo por archivo moviendo todo el codigo de cada componente, ahora solo necesitariamos ir a nuestro hero.scss y cambiar los colores.
+
+## Imagenes para la web.
+ - Tipos de imagen:
+
+      - JPG: Imágenes con degradados (ligero pero sin tanta calidad)
+      - PNG: Fondo transparente
+      - SVG: Vectores, usados en iconos y animaciones
+      - GIF: En movimiento, es pesado
+
+
+- Como elegir:
+
+   - Aporten al contenido
+   - Dirigido al cliente
+   - Consistente con la paleta de colores
+   - 👀 Licencias
+
+- Rendimiento y accesibilidad
+
+   - Evitar texto en las imágenes
+   - Exportar al tamaño del contenedor final
+   - Lazy loading: Cargando dinámico
+   - Texto alternativo
+
+## Graficos en movimientos para Web. 
+
+### formatos de graficos en movimiento
+
+- css animado 
+
+para animaciones sencillas
+
+- svg animado
+
+igual que css pero con posibilidad de añadir etiquetas 
+
+- JS(Canvas, WebGL)
+
+para animaciones complejas como visualizacion de datos o cosas en 3d
+
+- videos
+
+siempre preguntar si se necesesita o si puede ser una imagen
+
+### como elegir animaciones.
+
+Elegir animaciones que aporten al contenidas y que carguen rapido.
+
+Evitar reproducciones automaticas de videos o soonidos.(las bovinas de las farmacias similares).
+
+Evita animaciones con flashes por condiciones como la epilepsia.
+
+si las animaciones aportan al contenido procura usar subtitulos.
+
+Evitar que las animaciones bloqueen el contenido.
+
+Evitar muchas animaciones.
+
